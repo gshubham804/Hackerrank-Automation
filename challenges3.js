@@ -49,7 +49,7 @@ async function main() {
     {
         await solveChallenge(solveChallengeUrls[i],tab);
     }
-    // await browser.close();
+     await browser.close();
 }
 
 async function solveChallenge(url,tab){
